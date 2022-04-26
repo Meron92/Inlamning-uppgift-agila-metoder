@@ -11,12 +11,13 @@ function App() {
 <Router>
     <div className="App">
   
-  <Link to="/ChosenInfo"><button>Mer info</button></Link>
+  
   <ContextProvider>
       <Routes>
         <Route path="/ChosenInfo" element={<ChosenInfo/>}></Route>
         <Route path='/ChosenInfoPage' element={<ChosenInfoPage />} />
       </Routes>
+      <Link to="/ChosenInfo"><button>Mer info</button></Link>
       </ContextProvider>
     </div>
     </Router>

@@ -6,8 +6,10 @@ const { from } = location.state
 
     return ( 
         <section>
-            <h1>{from.titel}</h1>
+            <header><h2>{from.titel}</h2></header>
+            <div>
             <p>{from.desc}</p>
+            </div>
             <Link to="/ChosenInfo"><button>Tillbaka</button></Link>
         </section>
      );
