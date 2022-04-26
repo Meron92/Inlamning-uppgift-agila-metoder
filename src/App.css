@@ -2,12 +2,38 @@
   text-align: center;
 }
 
-.wrapper {
+img {
+  width: 350px;
+  height: 250px;
+}
+
+.backBtn {
+  width: 30px;
+  height: 30px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+
+.borderInfo {
   border: 2px solid black;
   width: 30%;
   margin: 0 auto;
   margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(160, 137, 137);
+  color: whitesmoke;
+}
 
+.headerChosenInfo{
+  background-color: black;
+  color: whitesmoke;
+}
+
+.chosenInfoBorder {
+  border: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .App-logo {

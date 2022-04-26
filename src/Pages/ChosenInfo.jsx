@@ -1,19 +1,20 @@
 import { useContext } from "react";
-import Roller from "../Components/Roller";
+import Info from "../Components/Info";
 import { userContext } from "../Components/Context";
-import {Link} from "react-router-dom"
+
 
 
 const ChosenInfo = () => {
     const { infos } = useContext(userContext)
     
     return ( 
-        <section>
-            <Link to="/"><button>Tillbaka</button></Link>
+        <section className="wrapperInfo">
+            <h2>SCRUM GUIDE</h2>
+           
            { infos.map((info, i) => (
-    
-                <Roller infos={info}  titel={info.titel} desc={info.desc} key={i}/>
-                
+    <section className="borderInfo">
+                <Info infos={info} img={info.img} titel={info.titel} desc={info.desc} key={i}/>
+                </section>
               
             ))}
         </section>
