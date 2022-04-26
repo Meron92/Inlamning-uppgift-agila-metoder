@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.wrapper {
+  border: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
